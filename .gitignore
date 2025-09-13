@@ -1,0 +1,7 @@
+cat <<EOF > .gitignore
+*.swp
+*.swo
+*.lock
+__pycache__/
+EOF
+
