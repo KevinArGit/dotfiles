@@ -99,3 +99,6 @@ vim.keymap.set('n', '<leader>mW', '<Cmd>lua require("neotest").watch.stop()<CR>'
 vim.keymap.set('n', '<leader>mo', '<Cmd>lua require("neotest").output.open()<CR>', { silent = true })
 vim.keymap.set('n', '<leader>mm', '<Cmd>lua require("neotest").summary.open()<CR>', { silent = true })
 vim.keymap.set('n', '<leader>mM', '<Cmd>lua require("neotest").summary.close()<CR>', { silent = true })
+
+-- NeoTree failover config
+map('n', '<leader><Tab>', '<Cmd>Neotree toggle left<CR>', opts)
